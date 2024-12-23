@@ -1,0 +1,1 @@
+const n=a=>a.charAt(0).toUpperCase()+a.slice(1),r=a=>(a.match(/[A-Z]{2,}(?=[A-Z][a-z]+[0-9]*|\b)|[A-Z]?[a-z]+[0-9]*|[A-Z]|[0-9]+/g)||[]).map(t=>t.toLowerCase()).join("-");function e(a){return n(r(a).replace(/-/g," "))}function s(a){return a==null||Number.isNaN(a)}function o(a){return s(a)?"":String(a)}export{o as a,e as b,n as c,s as i,r as t};
