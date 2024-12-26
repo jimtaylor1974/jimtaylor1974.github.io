@@ -1,1 +1,0 @@
-import{i as a,j as e}from"./index-660d126b.js";const n=({text:s})=>{const{fromEmailAddress:r}=a();return e.jsxs("p",{className:"mb-3",children:[s&&e.jsxs(e.Fragment,{children:[s,e.jsx("br",{})]}),"Please add ",r," to your safe senders list to ensure delivery.",e.jsx("br",{}),"If you do not receive an email please check your Spam or Junk email folders."]})};export{n as C};
