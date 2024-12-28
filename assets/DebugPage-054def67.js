@@ -1,1 +1,0 @@
-import{b as t,j as a}from"./index-29ebecb4.js";const r=()=>{const e=t();return a.jsxs(a.Fragment,{children:[a.jsx("h1",{className:"display-4",children:"Debug"}),a.jsx("pre",{children:JSON.stringify(e.authData,null,2)})]})};export{r as default};
